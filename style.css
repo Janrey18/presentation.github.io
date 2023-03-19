@@ -1,0 +1,161 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/joker\ 1.jpg), url(image/joker\ 1.jpg);;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    color: rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.5rem 1.5rem;
+}
+
+a,
+button {
+  color: rgb(255, 255, 255);
+}
+
+.image-clickable {
+  margin-right: auto;
+}
+
+.logo {
+  height: 2rem;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: rgba(19, 173, 45, 0.8);
+}
+
+button {
+  background: #04bd70;
+  cursor: pointer;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  transition: all 0.5s ease 0s;
+  margin-left: 20px;
+}
+
+button:hover {
+  background: rgba(4, 2, 173, 0.8);
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding:  9 px 20px;
+  font-size: 1rem;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(15, 0, 146);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 9px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #000a99;}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type="date"], input[type="time"], input[type="datetime-local"] {
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
